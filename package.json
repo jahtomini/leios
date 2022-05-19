@@ -1,0 +1,21 @@
+{
+  "name": "leios-theme",
+  "displayName": "Leios Theme",
+  "description": "A sleek, minimalist VSCode theme. ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Leios",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leios-color-theme.json"
+      }
+    ]
+  }
+}
