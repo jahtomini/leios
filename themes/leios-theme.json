@@ -383,7 +383,7 @@
         "variable.sass.string"
       ],
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#90e57b"
       }
     },
     {
@@ -425,7 +425,7 @@
       "name": "JSON String",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#90e0eb"
       }
     },
     {

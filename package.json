@@ -1,7 +1,19 @@
 {
   "name": "leios-theme",
-  "displayName": "Leios Theme",
-  "description": "A sleek, minimalist VSCode theme. ",
+  "displayName": "Leios",
+  "description": "A sleek, minimalist VSCode theme inspired by One Monokai.",
+  "author": "jahtomini",
+  "publisher": "JahtominiOgunderu",
+  "galleryBanner": {
+    "color": "#22242a",
+    "theme": "dark"
+  },
+  "keywords": [
+    "leios",
+    "sleek theme",
+    "high contrast theme",
+    "monokai theme"
+  ],
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.67.0"
@@ -9,12 +21,22 @@
   "categories": [
     "Themes"
   ],
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jahtomini/leios"
+  },
+  "bugs": {
+    "url": "https://github.com/jahtomini/leios/issues"
+  },
+  "homepage": "https://github.com/jahtomini/leios",
+  "license": "SEE LICENSE IN LICENSE.md",
   "contributes": {
     "themes": [
       {
         "label": "Leios",
         "uiTheme": "vs-dark",
-        "path": "./themes/leios-color-theme.json"
+        "path": "./themes/leios-theme.json"
       }
     ]
   }
