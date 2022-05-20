@@ -1,0 +1,27 @@
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  background-color: #22242a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+#symbols {
+  color: #ffffff;
+}
+
+#leios {
+  color: #83f7aa;
+  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: 1rem;
+}
